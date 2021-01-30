@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2DA2A7724294C86009B3DB9 /* Project Euler #1-Multiples of 3 and 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2A7624294C86009B3DB9 /* Project Euler #1-Multiples of 3 and 5.swift */; };
+		A2DA2A7724294C86009B3DB9 /* #1-Multiples of 3 and 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		A2C58D2C241562DC0061E6A2 /* HackerRankSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2DA2A7624294C86009B3DB9 /* Project Euler #1-Multiples of 3 and 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project Euler #1-Multiples of 3 and 5.swift"; sourceTree = "<group>"; };
+		A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#1-Multiples of 3 and 5.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		A2DA2A6D24293195009B3DB9 /* ProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
-				A2DA2A7624294C86009B3DB9 /* Project Euler #1-Multiples of 3 and 5.swift */,
+				A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2DA2A7724294C86009B3DB9 /* Project Euler #1-Multiples of 3 and 5.swift in Sources */,
+				A2DA2A7724294C86009B3DB9 /* #1-Multiples of 3 and 5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

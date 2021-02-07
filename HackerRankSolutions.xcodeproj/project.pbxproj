@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A2DA2A7724294C86009B3DB9 /* #1-Multiples of 3 and 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */; };
+		D1E9BF6D25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9BF6C25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift */; };
+		D1E9BF7125D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9BF7025D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		A2C58D2C241562DC0061E6A2 /* HackerRankSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#1-Multiples of 3 and 5.swift"; sourceTree = "<group>"; };
+		D1E9BF6C25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#2-Even Fibonacci numbers.swift"; sourceTree = "<group>"; };
+		D1E9BF7025D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateWithNNumberOfTestCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +45,8 @@
 		A2C58D23241562DC0061E6A2 = {
 			isa = PBXGroup;
 			children = (
+				D1E9BF6F25D07C0600F0DE00 /* Templates */,
 				A2DA2A6D24293195009B3DB9 /* ProjectEuler */,
-				A2C58D2D241562DC0061E6A2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,14 +56,25 @@
 				A2C58D2C241562DC0061E6A2 /* HackerRankSolutions */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A2DA2A6D24293195009B3DB9 /* ProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
 				A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */,
+				D1E9BF6C25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift */,
+				A2C58D2D241562DC0061E6A2 /* Products */,
 			);
 			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+		D1E9BF6F25D07C0600F0DE00 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				D1E9BF7025D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift */,
+			);
+			path = Templates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E9BF6D25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift in Sources */,
+				D1E9BF7125D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift in Sources */,
 				A2DA2A7724294C86009B3DB9 /* #1-Multiples of 3 and 5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

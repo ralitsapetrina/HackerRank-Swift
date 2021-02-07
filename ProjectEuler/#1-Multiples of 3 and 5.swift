@@ -10,7 +10,7 @@ import Foundation
 
 // ***** SUCCESSFUL *****
 
-@main
+//@main
 class MultiplesOfThreeAndFive {
     
     static func main() {

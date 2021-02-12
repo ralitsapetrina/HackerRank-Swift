@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A2DA2A7724294C86009B3DB9 /* #1-Multiples of 3 and 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */; };
+		D158C4CE25D66F9900AEF2D8 /* #3-Largest prime factor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158C4CD25D66F9900AEF2D8 /* #3-Largest prime factor.swift */; };
 		D1E9BF6D25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9BF6C25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift */; };
 		D1E9BF7125D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9BF7025D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		A2C58D2C241562DC0061E6A2 /* HackerRankSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#1-Multiples of 3 and 5.swift"; sourceTree = "<group>"; };
+		D158C4CD25D66F9900AEF2D8 /* #3-Largest prime factor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#3-Largest prime factor.swift"; sourceTree = "<group>"; };
 		D1E9BF6C25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#2-Even Fibonacci numbers.swift"; sourceTree = "<group>"; };
 		D1E9BF7025D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateWithNNumberOfTestCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 			children = (
 				A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */,
 				D1E9BF6C25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift */,
+				D158C4CD25D66F9900AEF2D8 /* #3-Largest prime factor.swift */,
 				A2C58D2D241562DC0061E6A2 /* Products */,
 			);
 			path = ProjectEuler;
@@ -138,6 +141,7 @@
 				D1E9BF6D25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift in Sources */,
 				D1E9BF7125D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift in Sources */,
 				A2DA2A7724294C86009B3DB9 /* #1-Multiples of 3 and 5.swift in Sources */,
+				D158C4CE25D66F9900AEF2D8 /* #3-Largest prime factor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

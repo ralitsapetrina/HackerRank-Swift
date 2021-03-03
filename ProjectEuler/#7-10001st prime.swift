@@ -8,7 +8,7 @@
 
 import Foundation
 
-// ***** 2 out of 5 SUCCESSFUL - needs rework *****
+// ***** 3 out of 5 SUCCESSFUL - others fail with timeout *****
 
 @main
 class NthPrimeNumber {
@@ -19,32 +19,54 @@ class NthPrimeNumber {
     
     static func getTheNthPrimeNumber(for n: Int) -> Int {
         
-        var primesCount = 1
-        var currentPrime = 2
-        var primeCandidate = 2
-        var listOfPrimes = [2]
+        // we start the list with 3 which is the second prime
+        var listOfPrimesToTest = [3]
+        // the prime count is 2 because we we start checking for primes after the second prime
+        var primesCount = 2
+        // current prime equals to 3 (last prime in the listOfPrimesToTest array
+        var currentPrime = 3
+        // prime candidate equals to the current prime in the beginning
+        var primeCandidate = 3
+        
+        // when the prime count equals the n value we want to return
         while primesCount < n {
-            primeCandidate += 1
-            
-            for number in listOfPrimes {
-                
-                if primeCandidate % number == 0 {
-                    break
-                }
-                
-                if listOfPrimes.last == number {
-                    listOfPrimes.append(primeCandidate)
-                    currentPrime = primeCandidate
-                    primesCount += 1
-                }
+            // on every iteration we add 2 to the candidate (we wont check even numbers)
+            primeCandidate += 2
+            if isPrime(for: primeCandidate, listOfCurrentPrimes: listOfPrimesToTest) {
+                // add the new prime to the list
+                listOfPrimesToTest.append(primeCandidate)
+                // update the current prime
+                currentPrime = primeCandidate
+                // increment the primes count
+                primesCount += 1
             }
         }
         
+        // when we reach the Nth prime we return its value
         return currentPrime
     }
     
-    static func calculateCases() {
+    static func isPrime(for primeCandidate: Int, listOfCurrentPrimes: Array<Int>) -> Bool {
         
+        // we iterate throught the listOfPrimesToTest
+        for number in listOfCurrentPrimes {
+            
+            // for every number from the list we check if the candidate has a remainder 0
+            if primeCandidate % number == 0 {
+                // if the remainder is 0, the candidate is not prime and we return false
+                return false
+            }
+            
+            // if square of number is larger than the candidate we know the candidate is prime
+            if number * number > primeCandidate {
+                return true
+            }
+        }
+        
+        return true
+    }
+    
+    static func calculateCases() {
         // get the number of test cases
         guard let testCasesNumber = readLine(),
               let testCases = Int(testCasesNumber) else {
@@ -54,15 +76,17 @@ class NthPrimeNumber {
         // get the individual case value for every test
         for _ in 1...testCases {
             
-            var result: Int = 0
-            
             // get the test case value
             guard let testCaseValue = readLine(),
                   let testNumber = Int(testCaseValue) else {
                 return
             }
-         
-            result = getTheNthPrimeNumber(for: testNumber)
+            // result equals to the first prime
+            var result: Int = 2
+            // if test number == 1 we will return the first prime which is 2
+            if testNumber > 1 {
+                result = getTheNthPrimeNumber(for: testNumber)
+            }
             
             print(result)
         }

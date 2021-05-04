@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A2DA2A7724294C86009B3DB9 /* #1-Multiples of 3 and 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */; };
+		D105332D260732E700EABF2B /* #8-Largest product in a series.swift in Sources */ = {isa = PBXBuildFile; fileRef = D105332C260732E700EABF2B /* #8-Largest product in a series.swift */; };
+		D10533302607334800EABF2B /* TemplateWithNNumberOfTestCases_twoLineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D105332F2607334800EABF2B /* TemplateWithNNumberOfTestCases_twoLineTest.swift */; };
 		D158C4CE25D66F9900AEF2D8 /* #3-Largest prime factor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158C4CD25D66F9900AEF2D8 /* #3-Largest prime factor.swift */; };
 		D158C4D325D71DFC00AEF2D8 /* #6-Sum square difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D158C4D225D71DFC00AEF2D8 /* #6-Sum square difference.swift */; };
 		D15E33E925D85C1700E5480C /* #7-10001st prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15E33E825D85C1700E5480C /* #7-10001st prime.swift */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		A2C58D2C241562DC0061E6A2 /* HackerRankSolutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankSolutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA2A7624294C86009B3DB9 /* #1-Multiples of 3 and 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#1-Multiples of 3 and 5.swift"; sourceTree = "<group>"; };
+		D105332C260732E700EABF2B /* #8-Largest product in a series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#8-Largest product in a series.swift"; sourceTree = "<group>"; };
+		D105332F2607334800EABF2B /* TemplateWithNNumberOfTestCases_twoLineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateWithNNumberOfTestCases_twoLineTest.swift; sourceTree = "<group>"; };
 		D158C4CD25D66F9900AEF2D8 /* #3-Largest prime factor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#3-Largest prime factor.swift"; sourceTree = "<group>"; };
 		D158C4D225D71DFC00AEF2D8 /* #6-Sum square difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#6-Sum square difference.swift"; sourceTree = "<group>"; };
 		D15E33E825D85C1700E5480C /* #7-10001st prime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "#7-10001st prime.swift"; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 				D158C4CD25D66F9900AEF2D8 /* #3-Largest prime factor.swift */,
 				D158C4D225D71DFC00AEF2D8 /* #6-Sum square difference.swift */,
 				D15E33E825D85C1700E5480C /* #7-10001st prime.swift */,
+				D105332C260732E700EABF2B /* #8-Largest product in a series.swift */,
 				A2C58D2D241562DC0061E6A2 /* Products */,
 			);
 			path = ProjectEuler;
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				D1E9BF7025D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift */,
+				D105332F2607334800EABF2B /* TemplateWithNNumberOfTestCases_twoLineTest.swift */,
 			);
 			path = Templates;
 			sourceTree = "<group>";
@@ -147,9 +153,11 @@
 				D1E9BF6D25D07B4200F0DE00 /* #2-Even Fibonacci numbers.swift in Sources */,
 				D158C4D325D71DFC00AEF2D8 /* #6-Sum square difference.swift in Sources */,
 				D15E33E925D85C1700E5480C /* #7-10001st prime.swift in Sources */,
+				D105332D260732E700EABF2B /* #8-Largest product in a series.swift in Sources */,
 				D1E9BF7125D07C2400F0DE00 /* TemplateWithNNumberOfTestCases.swift in Sources */,
 				A2DA2A7724294C86009B3DB9 /* #1-Multiples of 3 and 5.swift in Sources */,
 				D158C4CE25D66F9900AEF2D8 /* #3-Largest prime factor.swift in Sources */,
+				D10533302607334800EABF2B /* TemplateWithNNumberOfTestCases_twoLineTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

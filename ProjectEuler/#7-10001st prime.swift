@@ -8,9 +8,10 @@
 
 import Foundation
 
+// Link in hackerrank.com: https://www.hackerrank.com/contests/projecteuler/challenges/euler007/problem
 // ***** 3 out of 5 SUCCESSFUL - others fail with timeout *****
 
-@main
+//@main
 class NthPrimeNumber {
     
     static func main() {
@@ -19,11 +20,9 @@ class NthPrimeNumber {
     
     static func getTheNthPrimeNumber(for n: Int) -> Int {
         
-        // we start the list with 3 which is the second prime
-        var listOfPrimesToTest = [3]
         // the prime count is 2 because we we start checking for primes after the second prime
         var primesCount = 2
-        // current prime equals to 3 (last prime in the listOfPrimesToTest array
+        // current prime equals to 3
         var currentPrime = 3
         // prime candidate equals to the current prime in the beginning
         var primeCandidate = 3
@@ -32,9 +31,7 @@ class NthPrimeNumber {
         while primesCount < n {
             // on every iteration we add 2 to the candidate (we wont check even numbers)
             primeCandidate += 2
-            if isPrime(for: primeCandidate, listOfCurrentPrimes: listOfPrimesToTest) {
-                // add the new prime to the list
-                listOfPrimesToTest.append(primeCandidate)
+            if isPrime(for: primeCandidate) {
                 // update the current prime
                 currentPrime = primeCandidate
                 // increment the primes count
@@ -46,10 +43,10 @@ class NthPrimeNumber {
         return currentPrime
     }
     
-    static func isPrime(for primeCandidate: Int, listOfCurrentPrimes: Array<Int>) -> Bool {
+    static func isPrime(for primeCandidate: Int) -> Bool {
         
-        // we iterate throught the listOfPrimesToTest
-        for number in listOfCurrentPrimes {
+        // we check the candidate agains all odd numbers
+        for number in stride(from: 3, to: primeCandidate, by: 2) {
             
             // for every number from the list we check if the candidate has a remainder 0
             if primeCandidate % number == 0 {
@@ -62,7 +59,6 @@ class NthPrimeNumber {
                 return true
             }
         }
-        
         return true
     }
     

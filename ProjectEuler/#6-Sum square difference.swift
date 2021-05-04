@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Link in hackerrank.com: https://www.hackerrank.com/contests/projecteuler/challenges/euler006/problem
 // ***** SUCCESSFUL *****
 
 //@main
